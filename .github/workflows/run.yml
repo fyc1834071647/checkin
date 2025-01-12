@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: '0 6 * * *'  # 每天6点UTC时间触发
+    - cron: '10 22 * * *'  # 每天6点10分（中国时间）触发，UTC时间 22:10
 
 jobs:
   run:
